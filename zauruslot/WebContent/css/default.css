@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+div.reel {
+	width: 80px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	/*border: 1px green solid;*/
+}
+#reel0 {
+	top: 32px;
+	left: 60px;
+}
+#reel1 {
+	top: 32px;
+	left: 145px;
+}
+#reel2 {
+	top: 32px;
+	left: 230px;
+}
+#reel0 .reelFace {
+	background-image: url("../img/reel0.png");
+}
+#reel1 .reelFace {
+	background-image: url("../img/reel1.png");
+}
+#reel2 .reelFace {
+	background-image: url("../img/reel2.png");
+}
+div.reelFace {
+	/*top: -820px;*/
+	top: -30px;
+	width: 80px;
+	height: 1000px;
+	position: relative;
+}
+#bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 240px;
+	background-image: url("../img/b100.png");
+}
+#trigger {
+	position: absolute;
+	top: 200px;
+	left: 5px;
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/trig0.png");
+}
+#trigger:HOVER {
+	background-image: url("../img/trig1.png");
+}
+#coin {
+	font-weight: bold;
+	text-align: right;
+	position: absolute;
+	top: 215px;
+	left: 246px;
+	width: 62px;
+	height: 14px;
+	color: yellow;
+	background-color: transparent;
+	/*border: 1px red solid;*/
+}
